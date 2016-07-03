@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dilli</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="events">Events</string>
+    <string name="title_activity_food">FoodActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_travel">TravelActivity</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_lifestyle">LifestyleActivity</string>
+    <string name="title_activity_feed_detail">FeedDetailActivity</string>
+    <string name="details">Details</string>
+</resources>

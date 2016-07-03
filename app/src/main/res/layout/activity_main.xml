@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/food_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/food_home" />
+
+            <TextView
+                style="@style/mainActivity_text"
+                android:background="@color/red"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/food" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/travel_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/travel_home" />
+
+            <TextView
+                style="@style/mainActivity_text"
+                android:background="@color/blue"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/travel" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lifestyle_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/lifestyle_home" />
+
+            <TextView
+                style="@style/mainActivity_text"
+                android:background="@color/indigo"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/lifestyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/events_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/mainActivity_image"
+                android:src="@drawable/event_home" />
+
+            <TextView
+                style="@style/mainActivity_text"
+                android:background="@color/black"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/events" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

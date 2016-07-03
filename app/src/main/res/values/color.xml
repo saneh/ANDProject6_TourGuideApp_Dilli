@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#F44336</color>
+    <color name="blue">#2196F3</color>
+    <color name="indigo">#673AB7</color>
+    <color name="black">#000000</color>
+    <color name="detail_feed_background_color">#F0F4C3</color>
+    <color name="grey">#78909C</color>
+</resources>
