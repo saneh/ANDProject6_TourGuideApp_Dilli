@@ -14,4 +14,79 @@
     <string name="title_activity_lifestyle">LifestyleActivity</string>
     <string name="title_activity_feed_detail">FeedDetailActivity</string>
     <string name="details">Details</string>
+    <string name="events_kites_title">A Kite’s Eye View And Patangbazi At Haveli Dharampura Every Sunday</string>
+    <string name="events_kites_description">Haveli Dharampura, the first restored haveli in Chandni Chowk, is going to make July and August most memorable for you with a High Tea and a Patangbazi event every Sunday. So, if you want to rekindle your love for kite-flying, this would be a great place to start.</string>
+    <string name="events_kites_where">Haveli Dharampura, Near Jama Masjid Police Station</string>
+    <string name="events_kites_price">INR 1,000 plus taxes</string>
+    <string name="events_kites_when">4pm – 6.30pm</string>
+
+    <string name="events_organic_bazaar_title">Go Green With The Earth Collective—An Organic Lifestyle Bazaar</string>
+    <string name="events_organic_bazaar_description">A farmers’ market, The Earth Collective is about organic produce, environment sustainability and making conscientious lifestyle choices. Everything up for grabs at this lifestyle bazaar has been curated by Meenu Nageshwaran, a plant-based chef and vegan pro.</string>
+    <string name="events_organic_bazaar_where">Club Patio, Block-E, South City – I</string>
+    <string name="events_organic_bazaar_price">Entry is free</string>
+    <string name="events_organic_bazaar_when">5pm – 8pm {every Friday}</string>
+
+    <string name="events_outhouse_sale_title">Outhouse Is Having A Mother’s Day Sale</string>
+    <string name="events_outhouse_sale_description">Outhouse, everyone’s favourite jewellery store in Meherchand market, is holding a sale between Friday and Sunday, to celebrate Mother’s Day—everything is 20 per cent oTheir jewellery has been worn by names like Sonam Kapoor, Priyanka Chopra, Deepika Padukone, Kangana Ranaut, Nargis Fakri, and Sienna Miller, Ashley Louis James, and Tyra Banks, so you know you’re in good hands.!</string>
+    <string name="events_outhouse_sale_where">144 Lodhi Road, Meherchand Market</string>
+    <string name="events_outhouse_sale_price">Entry is free</string>
+    <string name="events_outhouse_sale_when">11am – 7:30pm</string>
+
+    <string name="events_bizarre_bazaar_title">Bizarre Bazaar: A Flea Market for Your Inner Surprise-lover</string>
+    <string name="events_bizarre_bazaar_description">The Bizarre Bazaar is a flea market at SDA, and happens every Saturday. A shoppertunity that you do not want to miss, especially at a place known for its food joints and cafes. It’s a market that changes its stalls every week, and hence one is in for a surprise every time one visits this Bizarre Bazaar.</string>
+    <string name="events_bizarre_bazaar_where">Safdarjung Development Area market {opposite IIT Delhi main Gate}</string>
+    <string name="events_bizarre_bazaar_price">Entry is free</string>
+    <string name="events_bizarre_bazaar_when">12pm – 11pm</string>
+
+    <string name="events_riding_festival_title">Explore the North with the Great Indian Riding Festival</string>
+    <string name="events_riding_festival_description">Launched by travel start-up Roots Vida, The Great Indian Riding Festival {GIRF} is a six-month long celebration of motorcycles and riding. The festival will consist of 25 riding tours, starting in New Delhi and moving on to Bhutan, Spiti, Ladhakh and the North East. You are free to choose the group, date and time of your journey.</string>
+    <string name="events_riding_festival_where">Starting from New Delhi</string>
+    <string name="events_riding_festival_price">Starting at INR 29,599.</string>
+    <string name="events_riding_festival_when">Apr 1 – Sept 30, 2016</string>
+
+    <string name="food_underground_title">Come Chill At The Backyard Underground, Now Open In Gurgaon</string>
+    <string name="food_underground_description">To add to Gurgaon’s ever-increasing list of where we’d like to unwind, The Backyard Underground has set up shop in Sector 29. Their Punjabi Bagh outlet, The Backyard, is the perfect place to chill with old friends and cold beer, so they’re hoping to recreate the same magic in G-town.Except there’s a slight twist. It’s all underground – 20 feet underground to be precise.</string>
+    <string name="food_underground_where">Delhi</string>
+    <string name="food_underground_price">INR 1,200 for two {approx.}</string>
+
+    <string name="food_remember_me_title">Drop Into Remember Me Cafe For Sunshine and Near-Perfect French Fries</string>
+    <string name="food_remember_me_description">Shahpur Jat’s newest addition, Remember Me Cafe is a confusing mix of Italian, continental and a smattering of Chinjabi. The blue and yellow space makes for the ideal setting to take a quick break after a long day of shopping.</string>
+    <string name="food_remember_me_where">JP House, First Floor, 118 {next to Apartment 9}, Shahpur Ja</string>
+    <string name="food_remember_me_price">INR 1,000 for two</string>
+
+    <string name="food_matamaal_title">Matamaal Offers Homestyle Kashmiri Pandit Food</string>
+    <string name="food_matamaal_description">Literally meaning Nani’s home, Matamaal is a cosy and quaint Kashmiri diner which serves homestyle Pandit cuisine from the Kashmir valley.</string>
+    <string name="food_matamaal_where">Delhi</string>
+    <string name="food_matamaal_price">INR 1,000 for two</string>
+
+    <string name="lifestyle_kids_salon_title">Gurgaon’s First Kids-Only Salon, Barber Black Sheep, Now Open</string>
+    <string name="lifestyle_kids_salon_description">It’s Gurgaon’s first kids-only salon, with grooming, baby-sitting and party-planning services so their super moms can take a bit of a break.</string>
+    <string name="lifestyle_kids_salon_where">A-14/1, Fourth Floor, DLF Phase I</string>
+    <string name="lifestyle_kids_salon_price">Salon services start at INR 400; hourly fee for the play area is INR 350</string>
+    
+    <string name="lifestyle_rent_bike_title">Rent And Ride With Online Motorcycle Rental Portal WheelStreets</string>
+    <string name="lifestyle_rent_bike_description">WheelStreets is an online bike rental aggregator that has been up and running in Delhi and Bangalore since 2014. They have recently opened in Gurgaon</string>
+    <string name="lifestyle_rent_bike_where">Check website</string>
+    <string name="lifestyle_rent_bike_price">Check website</string>
+
+    <string name="lifestyle_for_my_shaadi_title">Wedding Gifting Just Became More Fun with ForMyShaadi.com</string>
+    <string name="lifestyle_for_my_shaadi_description">ForMyShaadi.com is an online wedding gift registry portal that lets soon-to-be-married couples curate their own wedding wish lists and share them with their friends and family.</string>
+    <string name="lifestyle_for_my_shaadi_where">Check website</string>
+    <string name="lifestyle_for_my_shaadi_price">Checkout Website</string>
+
+    <string name="travel_sujan_palace_title">Settle Into The Lap Of Luxury At SUJÁN Rajmahal Palace</string>
+    <string name="travel_sujan_palace_description">In the heart of Jaipur lies the SUJÁN Rajmahal Palace—once home to kings and queens, and now open to those with discerning taste, looking for a quick weekend away.</string>
+    <string name="travel_sujan_palace_where">Sardar Patel Marg, C Scheme, Jaipur, Rajasthan</string>
+    <string name="travel_sujan_palace_price">Starting Price: INR 19000</string>
+
+    <string name="travel_seetalvan_title">Seetalvan Orchard, For The Best Hotel View In India</string>
+    <string name="travel_seetalvan_description">Seetalvan Orchard is set on a working orchard, a few hours’ drive north of Shimla – the main town in the state of Himachal Pradesh – in the village of Kotgarh, and some 15 km from the main highway towards Tibet. Narkanda is the nearest town of any notable size. Kotgarh is right in the heart of apple country, so expect orchards, blossoming trees, fresh mountain air and of course those majestic mountain views at every turn.</string>
+    <string name="travel_seetalvan_where"> Kotgarh Narkanda, Shimla, Himachal Pradesh</string>
+    <string name="travel_seetalvan_price">rooms start at INR 5,500 per night</string>
+
+    <string name="travel_laxman_sagar_title">Live In The Lap Of Luxury At Lakshman Sagar</string>
+    <string name="travel_laxman_sagar_description">Said to be one of the hidden gems of Rajasthan, Lakshman Sagar lets you experience the rustic and slow life, while also offering luxuries like a private splash pool.</string>
+    <string name="travel_laxman_sagar_where">Raipur Road {near Haripur Railway Station} Dist. Pali, Raipur, Rajasthan</string>
+    <string name="travel_laxman_sagar_price">Starting at INR 13,500 {for a room}</string>
+
 </resources>

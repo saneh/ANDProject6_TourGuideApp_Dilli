@@ -1,9 +1,8 @@
 package in.lemonco.dilli;
 
 import android.content.Intent;
-import android.os.Parcelable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,9 +19,10 @@ public class TravelActivity extends AppCompatActivity {
         setContentView(R.layout.feed_list);
 
         final ArrayList<Feed> travels = new ArrayList<Feed>();
-        travels.add(new Feed("Settle Into The Lap Of Luxury At SUJÁN Rajmahal Palace", "In the heart of Jaipur lies the SUJÁN Rajmahal Palace—once home to kings and queens, and now open to those with discerning taste, looking for a quick weekend away.", "Sardar Patel Marg, C Scheme, Jaipur, Rajasthan", "Starting Price: INR 19000", R.drawable.travel_sujan_palace));
-        travels.add(new Feed("Seetalvan Orchard, For The Best Hotel View In India", "Seetalvan Orchard is set on a working orchard, a few hours’ drive north of Shimla – the main town in the state of Himachal Pradesh – in the village of Kotgarh, and some 15 km from the main highway towards Tibet. Narkanda is the nearest town of any notable size. Kotgarh is right in the heart of apple country, so expect orchards, blossoming trees, fresh mountain air and of course those majestic mountain views at every turn.", " Kotgarh Narkanda, Shimla, Himachal Pradesh", "rooms start at INR 5,500 per night", R.drawable.travel_seetalvan));
-        travels.add(new Feed("Live In The Lap Of Luxury At Lakshman Sagar", "Said to be one of the hidden gems of Rajasthan, Lakshman Sagar lets you experience the rustic and slow life, while also offering luxuries like a private splash pool.", "Raipur Road {near Haripur Railway Station} Dist. Pali, Raipur, Rajasthan", "Starting at INR 13,500 {for a room}", R.drawable.travel_laxman_sagar));
+        travels.add(new Feed(getString(R.string.travel_sujan_palace_title),getString(R.string.travel_sujan_palace_description),getString(R.string.travel_sujan_palace_where),getString(R.string.travel_sujan_palace_price),R.drawable.travel_sujan_palace));
+        travels.add(new Feed(getString(R.string.travel_seetalvan_title),getString(R.string.travel_seetalvan_description),getString(R.string.travel_seetalvan_where),getString(R.string.travel_seetalvan_price),R.drawable.travel_seetalvan));
+        travels.add(new Feed(getString(R.string.travel_laxman_sagar_title),getString(R.string.travel_laxman_sagar_description),getString(R.string.travel_laxman_sagar_where),getString(R.string.travel_laxman_sagar_price),R.drawable.travel_laxman_sagar));
+
         ListView listView = (ListView) findViewById(R.id.feedList);
         FeedAdapter feedAdapter = new FeedAdapter(this, travels);
         listView.setAdapter(feedAdapter);

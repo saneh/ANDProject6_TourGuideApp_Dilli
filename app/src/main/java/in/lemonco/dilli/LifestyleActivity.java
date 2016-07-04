@@ -1,9 +1,8 @@
 package in.lemonco.dilli;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,9 +19,9 @@ public class LifestyleActivity extends AppCompatActivity {
         setContentView(R.layout.feed_list);
 
         final ArrayList<Feed> lifestyles = new ArrayList<Feed>();
-        lifestyles.add(new Feed("Gurgaon’s First Kids-Only Salon, Barber Black Sheep, Now Open", "It’s Gurgaon’s first kids-only salon, with grooming, baby-sitting and party-planning services so their super moms can take a bit of a break.", "A-14/1, Fourth Floor, DLF Phase I", "Salon services start at INR 400; hourly fee for the play area is INR 350", R.drawable.lifestyle_kids_salon));
-        lifestyles.add(new Feed("Rent And Ride With Online Motorcycle Rental Portal WheelStreets", "WheelStreets is an online bike rental aggregator that has been up and running in Delhi and Bangalore since 2014. They have recently opened in Gurgaon", "Check website", "Checkout Website", R.drawable.lifestyle_rent_bike));
-        lifestyles.add(new Feed("Wedding Gifting Just Became More Fun with ForMyShaadi.com", "ForMyShaadi.com is an online wedding gift registry portal that lets soon-to-be-married couples curate their own wedding wish lists and share them with their friends and family.", "Check website", "Checkout Website", R.drawable.lifestyle_for_my_shaadi));
+        lifestyles.add(new Feed(getString(R.string.lifestyle_kids_salon_title),getString(R.string.lifestyle_kids_salon_description),getString(R.string.lifestyle_kids_salon_where),getString(R.string.lifestyle_kids_salon_price),R.drawable.lifestyle_kids_salon));
+        lifestyles.add(new Feed(getString(R.string.lifestyle_rent_bike_title),getString(R.string.lifestyle_rent_bike_description),getString(R.string.lifestyle_rent_bike_where),getString(R.string.lifestyle_rent_bike_price),R.drawable.lifestyle_rent_bike));
+        lifestyles.add(new Feed(getString(R.string.lifestyle_for_my_shaadi_title),getString(R.string.lifestyle_for_my_shaadi_description),getString(R.string.lifestyle_for_my_shaadi_where),getString(R.string.lifestyle_for_my_shaadi_price),R.drawable.lifestyle_for_my_shaadi));
 
         ListView listView = (ListView) findViewById(R.id.feedList);
         FeedAdapter feedAdapter = new FeedAdapter(this, lifestyles);
